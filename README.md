@@ -59,7 +59,7 @@ The infrastructure relies on pure Point-to-Point (P2P) cryptographic tunnels to 
 ### 4. Encrypted Payload Delivery
 *(Fetching the Nginx web server payload exclusively over the custom loopback interfaces).*
 <br>
-![Payload Delivery](images/payload_delivery.png)]
+![Payload Delivery](images/payload_delivery.png)
 
 ---
 
