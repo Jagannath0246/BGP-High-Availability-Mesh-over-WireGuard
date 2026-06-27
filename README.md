@@ -49,17 +49,17 @@ The infrastructure relies on pure Point-to-Point (P2P) cryptographic tunnels to 
 ### 2. Infrastructure as Code (IaC) Execution
 *(The custom Python controller rebuilding the mesh and restarting the Docker payload).*
 <br>
-[IaC Deployment](images/iac_deployment.png)
+![IaC Deployment](images/iac_deployment.png)
 
 ### 3. Real-Time Self-Healing (The Failover)
 *(Sabotaging the primary BGP link and watching the routing table instantly shift the payload to the backup Node C detour).*
 <br>
-[Failover Proof](images/failover_proof.png)
+![Failover Proof](images/failover_proof.png)
 
 ### 4. Encrypted Payload Delivery
 *(Fetching the Nginx web server payload exclusively over the custom loopback interfaces).*
 <br>
-[Payload Delivery](images/payload_delivery.png)]
+![Payload Delivery](images/payload_delivery.png)]
 
 ---
 
