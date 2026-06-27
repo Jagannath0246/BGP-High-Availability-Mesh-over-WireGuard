@@ -44,7 +44,7 @@ The infrastructure relies on pure Point-to-Point (P2P) cryptographic tunnels to 
 ### 1. Active BGP Peer Mesh
 *(This screenshot proves the cryptographic tunnels are active and FRRouting is exchanging prefixes across the HA triangle).*
 <br>
-`[INSERT IMAGE HERE: ![BGP Summary](images/bgp_peers.png)]`
+[INSERT IMAGE HERE: ![BGP Summary](images/bgp_peers.png)]
 
 ### 2. Infrastructure as Code (IaC) Execution
 *(The custom Python controller rebuilding the mesh and restarting the Docker payload).*
